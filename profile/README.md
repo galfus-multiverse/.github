@@ -1,27 +1,30 @@
 <div align="center">
-  <img src="images/brand-full-colored.svg" alt="Galfus" width="400" />
+  <img src="../assets/brand-full-colored.svg" alt="Galfus" width="400" />
 </div>
 
 <br />
 
-# Galfus
+# Galfus Multiverse
 
-> A small, efficient, highly modular interpreted scripting language built around typed source code, an in-memory executable graph, and a deterministic VM runtime.
+> An open technology laboratory exploring modular systems, graphics foundations, scripting runtimes, and developer tooling.
 
-Welcome to the **galfus-multiverse** GitHub organization! This is the home of the Galfus ecosystem.
-Our organization contains all the official projects related to the Galfus language, from its core runtime and compiler to our web playground and tooling.
+Welcome to the **galfus-multiverse** GitHub organization! We are a technology lab dedicated to designing and building high-performance, composable software foundations — from host-agnostic graphics engines and deterministic scripting VMs to web tooling and interactive playgrounds.
 
 ---
 
-## 📦 Repositories
+## 📦 Key Projects
+
+### [galfus-engine](https://github.com/galfus-multiverse/galfus-engine)
+
+A host-agnostic, modular 2D/3D graphics and simulation foundation built in Rust (`wgpu` + Rapier) with multi-language SDKs (TypeScript/Bun/Node, Browser/WASM, C, C#, Python, Lua) and a Multiverse render graph.
 
 ### [galfus-script](https://github.com/galfus-multiverse/galfus-script)
 
-The main language repository containing the core Rust implementation. Here you'll find the parser, typechecker, compiler, and the VM interpreter that makes Galfus run deterministically.
+A small, modular interpreted scripting language written in Rust, built around typed source code, an in-memory executable graph, and a deterministic VM runtime.
 
 ### [galfus-site](https://github.com/galfus-multiverse/galfus-site)
 
-The official website and documentation for Galfus, built with SvelteKit. It also embeds the web-based playground, compiled to WebAssembly.
+The official website and documentation hub for the Galfus ecosystem, built with SvelteKit and featuring a WebAssembly-powered interactive playground.
 
 ---
 
